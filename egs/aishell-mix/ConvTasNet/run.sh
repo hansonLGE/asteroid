@@ -38,7 +38,7 @@ half_lr=yes
 early_stop=yes
 # Optim config
 optimizer=adam
-lr=0.0001
+lr=0.001
 weight_decay=0.
 # Data config
 sample_rate=16000

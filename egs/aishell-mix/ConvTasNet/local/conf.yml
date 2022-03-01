@@ -21,7 +21,7 @@ training:
 # Optim config
 optim:
   optimizer: adam
-  lr: 0.0001
+  lr: 0.001
   weight_decay: 0.
 # Data config
 data:
