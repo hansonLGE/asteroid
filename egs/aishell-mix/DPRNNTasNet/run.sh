@@ -30,8 +30,8 @@ out_dir=aishellmix # Controls the directory name associated to the evaluation re
 
 # Training config
 epochs=200
-batch_size=2
-num_workers=4
+batch_size=4
+num_workers=8
 half_lr=yes
 early_stop=yes
 # Optim config
@@ -46,10 +46,10 @@ segment=3
 task=sep_clean  # one of 'enh_single', 'enh_both', 'sep_clean', 'sep_noisy'
 
 # Architecture config
-kernel_size=2
-stride=1
-chunk_size=250
-hop_size=125
+kernel_size=16
+stride=8
+chunk_size=100
+hop_size=50
 
 # Evaluation
 eval_use_gpu=1
